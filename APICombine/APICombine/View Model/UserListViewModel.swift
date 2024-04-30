@@ -17,7 +17,7 @@ final class UserListViewModel: ObservableObject {
         guard let url = URL(string: urlString) else { return }
         
         let request = URLRequest(url: url)
-        self.networkManager.fetchUsers(urlRequest: request, type: [User].self)
+        self.networkManager.fetchDataFromAPI(urlRequest: request, type: [User].self)
             .receive(on: RunLoop.main)
             .sink { completion in
                 switch completion {
@@ -41,7 +41,8 @@ final class UserListViewModel: ObservableObject {
             } receiveValue: { list in
                 self.userList = list.sorted(by: { $0.name < $1.name })
                 self.filteredUserList = list.sorted(by: { $0.name < $1.name })
-            }.store(in: &cancellable)
+            }
+            .store(in: &cancellable)
     }
     
     func filterUsersList(searchText: String) {
