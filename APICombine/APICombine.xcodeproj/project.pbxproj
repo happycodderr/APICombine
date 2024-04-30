@@ -20,6 +20,8 @@
 		252986C92BE0E12B00927194 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252986C82BE0E12B00927194 /* NetworkError.swift */; };
 		252986CB2BE0E14A00927194 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252986CA2BE0E14A00927194 /* UsersListView.swift */; };
 		252986CD2BE0E15600927194 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252986CC2BE0E15600927194 /* UserListViewModel.swift */; };
+		252987132BE1557B00927194 /* UsersViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252987122BE1557B00927194 /* UsersViewModelTest.swift */; };
+		252987152BE1565200927194 /* UsersMockTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 252987142BE1565200927194 /* UsersMockTest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		252986C82BE0E12B00927194 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		252986CA2BE0E14A00927194 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		252986CC2BE0E15600927194 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		252987122BE1557B00927194 /* UsersViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModelTest.swift; sourceTree = "<group>"; };
+		252987142BE1565200927194 /* UsersMockTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsersMockTest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				252986A52BE0E0BB00927194 /* APICombineTests.swift */,
+				252987122BE1557B00927194 /* UsersViewModelTest.swift */,
+				252987142BE1565200927194 /* UsersMockTest.json */,
 			);
 			path = APICombineTests;
 			sourceTree = "<group>";
@@ -290,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252987152BE1565200927194 /* UsersMockTest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				252986A62BE0E0BB00927194 /* APICombineTests.swift in Sources */,
+				252987132BE1557B00927194 /* UsersViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
