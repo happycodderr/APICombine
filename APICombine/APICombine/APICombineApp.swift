@@ -6,7 +6,7 @@ import SwiftUI
 struct APICombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersListView()
         }
     }
 }
