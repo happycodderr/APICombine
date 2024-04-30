@@ -13,6 +13,4 @@ final class NetworkManager: Networkable {
             .decode(type: type.self, decoder: JSONDecoder())
             .eraseToAnyPublisher()
     }
-    
-    
 }
